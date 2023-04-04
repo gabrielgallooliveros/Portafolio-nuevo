@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>PORTAFOLIO-GABRIEL</title>
+</head>
+
+<body>
+
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">PROYECTOS BACK-END</a> 
+                            </li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS FRONT-   
+                                END</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://www.facebook.com/gabo52" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-giancarlo-gallo-oliveros-5a974523a/" target="_blank"><i 
+                            class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/gabogabriel52/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Gabriel Gallo</span>, Desarrollador Back-End</h2>
+                <p class="descripcion">Si puedes aguantarlo, Puedes lograrlo. </p>
+                <a href="#servicios">Mis Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/IMG-20220603-WA0084.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Gabriel Gallo</span> </h2>
+            <h3>Desarrollador Back-End</h3>
+            <p> Programador innovador y emprendedor contribuyendo desde el Back-End, egresado de SCHOOL 
+                OF TECNOLOGY AND COMPUTER SCIENCE    
+                dominio de desarrollo de base de datos de diferentes estructuras.
+                Mejorando el funcionamiento de las organizaciones con soluciones de sistemas de     
+                informacion. Adaptandome a nuevas tecnologias para mejorar los sistemas existentes e    
+                introducir nuevos programas.</p>
+    
+            <a href="CV-GABRIEL (2).pdf" target="_blank">Descargar CV</a>
+            <a href="CV-GABRIEL-INGLES.pdf" target="_blank">DOWNLOAD CV ENGLISH </a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">PROYECTOS BACK-END</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Cursos API</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                </ul>
+                <p>Creando y agregando a las tablas sus respectivas        
+                relaciones sus llaves foraneas correspondientes
+                exportando a PostgreSQL
+                creando 2 registros de cada una de las tablas
+                utilizando todos los comandos agregando a un archivo .sql, utilizando dbdiagram para    
+                la creación de las tablas <a    
+                href="https://github.com/gabrielgallooliveros/base_datos_entregable1.git"  
+                target="_blank">PROYECTO AQUI</a></p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Proyecto CRUD Peliculas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                </ul>
+                <p>Creando y desplegando un servidor que utiliza las librerias de express y nodemon,   
+                    modelo MVC, movies.controllers.js , movies.services.js, movies.router.js
+                    recibiendo los siguientes verbos a las siguientes rutas /movies 
+                    GET → Al hacer esta peticion retorno todas las peliculas
+                    POST → Al hacer esta peticion, manejo el req del cliente y creo una nueva pelicula
+                    GET → Al hacer esta petición  retorno tambien la pelicula con el ID en especifico  
+                    que recibo desde los parametros <a  
+                    href="https://github.com/gabrielgallooliveros/proyecto2-usuarios.git"   
+                    target="_blank">PROYECTO AQUI</a></p> 
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>CRUD de posts</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                </ul>
+                <p>Creando y desplegando un servidor, utilizando las librerias de express y sequelize.
+                    dependencias: sequelize, pg, pg-hstore recibiendo los siguientes verbos a las   
+                    siguientes rutas
+                    GET → Al hacer esta peticion retorno todos los products
+                    POST → Al hacer esta peticion, manejo el req del cliente y creo un nuevo product
+                    GET → Al hacer esta petición retorno el product con el ID en especifico que recibo  
+                    desde parametros
+                    PATCH → Al hacer esta peticion, recibo el id y un body para actualizar el product y retorno un error o el   
+                    producto actualizado
+                    DELETE → Al hacer esta peticion, recibo el id y retornar un mensaje de exito en caso de que se haya     
+                    eliminado algo correctamente, o un error en caso de que no <a   
+                    href="https://github.com/gabrielgallooliveros/proyecto3-blog.git" target="_blank">PROYECTO AQUI</a></p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Rutas Protegidas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                </ul>
+                <p>Instalando dependencias, bcrypt, passport, jsonwebtoken, passport-jwt, agregando funcion que verifique las   
+                    credenciales del usuario, recibiendo solo el email y la contraseña, retornando el usuario en caso de ser    
+                    exitoso, o null en caso de que no, manejando la peticion de tipo post a /login con el servicio del punto b. 
+                    Configuracion de passport con la estrategia de JWT verificando si pertenece a un usuario correcto, creando   2 utilidades usando bcrypt, la primera para encriptar la contraseña de nuestros usuarios, y la segunda para comparar la contraseña en texto plano con la contraseña encriptada <a href="https://github.com/gabrielgallooliveros/entregable5_nodejs.git" target="_blank">PROYECTO AQUI</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>TRABAJANDO EN ELLO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                </ul>
+                <p></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>TRABAJANDO EN ELLO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                    <li>Back-End</li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Node js</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>React js</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">PROYECTOS FRONT-END</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>API POKEDEX</h4>
+                    <p>Diseño Web <a href="https://fascinating-dasik-6dad8e.netlify.app/#/pokedex" target="_blank">AQUI</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.png" alt="">
+                <div class="info">
+                    <h4>WHEATER APP</h4>
+                    <p>Diseño Web <a href="https://gentle-dodol-fd4ddf.netlify.app/" target="_blank">AQUI</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.png" alt="">
+                <div class="info">
+                    <h4>API RICK AND MORTY</h4>
+                    <p>Diseño Web <a href="https://candid-bublanina-c13055.netlify.app/" target="_blank">AQUI</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.png" alt="img">
+                <div class="info">
+                    <h4>FRASES HISTORICAS</h4>
+                    <p>Diseño Web <a href="https://chipper-souffle-6ed360.netlify.app/" target="_blank">AQUI</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.png" alt="img">
+                <div class="info">
+                    <h4>ECOMMERCE</h4>
+                    <p>Diseño Web <a href="https://funny-brigadeiros-d7467d.netlify.app/" target="_blank">AQUI</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.png" alt="img">
+                <div class="info">
+                    <h4>PORTFOLIO</h4>
+                    <p>Diseño Web <a href="https://cool-squirrel-aa487a.netlify.app/" target="_blank">AQUI</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/PROYECTO7.png" alt="img">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/PROYECTO7.png" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/PROYECTO7.png" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>MIS REDES SOCIALES</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/gabo52" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/gabogabriel52/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+             <a href="https://www.linkedin.com/in/gabriel-giancarlo-gallo-oliveros-5a974523a/" target="_blank"><i 
+                            class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
